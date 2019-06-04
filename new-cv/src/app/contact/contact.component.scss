@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    background:url("../../assets/darkback2.jpg");
+}
+
+header{
+    text-align: center;
+    color: rgb(143, 117, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    height: 150px;
+}
+
+
+input{
+    background-color: rgb(204, 204, 204);
+    color: rgb(131, 125, 45);
+    height:50px;
+    width: 300px;
+    border: 3px solid rgb(134, 133, 133);
+    border-radius: 10px;
+}
+textarea{
+    background-color: rgb(204, 204, 204);
+    color: white;
+    height:200px;
+    width: 300px;
+    border: 3px solid rgb(134, 133, 133);
+    border-radius: 10px;
+}
+
+
+.form{
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.main{
+    display: flex;
+}
+
+img{
+    border-radius: 10px;
+    opacity: 0.8;
+    color: rgb(155, 124, 46); 
+}
+
+footer{
+    background-color: rgb(155, 124, 46);
+    text-align: center;
+    height:50px;
+    padding-top: 16px;
+    color: rgb(143, 117, 3);
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+form{
+    max-width: 1500px;
+}
